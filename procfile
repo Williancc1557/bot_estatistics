@@ -1,1 +1,1 @@
-worker: python "index.py"
+botestatisticas01: python "index.py"
