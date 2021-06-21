@@ -12,7 +12,9 @@ pd.set_option("display.max_rows", None, "display.max_columns", None)
 bot = commands.Bot(command_prefix=['E!', 'e!'], intents=intents)
 bot.remove_command("help")
 
-
+@bot.event
+async def on_ready():
+    print("bot online")
 #hi
 @bot.event
 @commands.guild_only()
