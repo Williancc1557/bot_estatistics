@@ -94,4 +94,4 @@ async def drop_dados(ctx):
     arquivo.to_csv(f'arquivo/{ctx.guild.id}.csv')
     await ctx.send('Você apagou todos os dados do comando `e!dados`')
 
-bot.run('Nzg0MzgzMDgxNjY5NzIyMTUz.X8ofqw.PDCOBAbiCKJat96OLFySvq2HRGc')
+bot.run('')
